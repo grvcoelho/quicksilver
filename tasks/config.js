@@ -29,6 +29,10 @@ module.exports = {
 		}
 	},
 
+	lint: {
+		src: src + '/js/**/*.js'
+	},
+
 	markup: {
 		src: src + '/**/*.html',
 		dest: dest
