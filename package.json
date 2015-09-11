@@ -1,0 +1,24 @@
+{
+  "name": "quicksilver",
+  "version": "0.1.0",
+  "description": "Gulp boilerplate for rapid development",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grvcoelho/quicksilver.git"
+  },
+  "keywords": [
+    "gulp",
+    "boilerplate",
+    "quicksilver"
+  ],
+  "author": "Guilherme Rv Coelho <@grvcoelho>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grvcoelho/quicksilver/issues"
+  },
+  "homepage": "https://github.com/grvcoelho/quicksilver#readme"
+}
