@@ -8,6 +8,6 @@ gulp.task('markup', function() {
     return gulp
         .src(config.src)
         .on('error', notifyErrors)
-        .pipe(gulp.dest(config.dest));
+        .pipe(gulp.dest(config.dest))
         .pipe(browser.reload({stream: true}))
 });
