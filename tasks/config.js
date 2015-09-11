@@ -2,6 +2,11 @@ var dest = './dist';
 var src = './src';
 
 module.exports = {
+	browserify: {
+		src: src + '/js/**/index.js',
+		dest: dest + '/assets/js'
+	},
+
 	clean: {
 		path: dest
 	},
