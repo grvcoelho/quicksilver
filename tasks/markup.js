@@ -9,5 +9,5 @@ gulp.task('markup', function() {
         .src(config.src)
         .on('error', notifyErrors)
         .pipe(gulp.dest(config.dest))
-        .pipe(browser.reload({stream: true}))
+        .pipe(browser.reload({stream: true}));
 });

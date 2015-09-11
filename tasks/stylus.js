@@ -19,5 +19,5 @@ gulp.task('stylus', function() {
         .on('error', notifyErrors)
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(config.dest))
-        .pipe(browser.reload({stream: true}))
+        .pipe(browser.reload({stream: true}));
 });

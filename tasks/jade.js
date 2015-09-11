@@ -11,5 +11,5 @@ gulp.task('jade', function() {
         .pipe(jade(config.settings))
         .on('error', notifyErrors)
         .pipe(gulp.dest(config.dest))
-        .pipe(browser.reload({stream: true}))
+        .pipe(browser.reload({stream: true}));
 });

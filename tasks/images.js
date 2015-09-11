@@ -13,5 +13,5 @@ gulp.task('images', function() {
         .pipe(imagemin(config.settings))
         .on('error', notifyErrors)
         .pipe(gulp.dest(config.dest))
-        .pipe(browser.reload({stream: true}))
+        .pipe(browser.reload({stream: true}));
 });
