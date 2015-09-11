@@ -16,6 +16,11 @@ module.exports = {
 		}
 	},
 
+	markup: {
+		src: src,
+		dest: dest
+	},
+
 	server: {
 		baseDir: dest,
 		port: 4000
