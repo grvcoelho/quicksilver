@@ -7,7 +7,7 @@ module.exports = {
 	},
 
 	images: {
-		src: src + '/assets/img/**'
+		src: src + '/assets/img/**',
 		dest: dest + '/assets/img',
 		settings: {
 			optimizationLevel: 3,
@@ -16,8 +16,16 @@ module.exports = {
 		}
 	},
 
+	jade: {
+		src: src + '/**/*.jade',
+		dest: dest,
+		settings: {
+			pretty: false
+		}
+	},
+
 	markup: {
-		src: src,
+		src: src + '/**/*.html',
 		dest: dest
 	},
 
