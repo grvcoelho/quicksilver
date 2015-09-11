@@ -1,4 +1,4 @@
-var gulp  = require('gulp');
+var gulp = require('gulp');
 var rimraf = require('gulp-rimraf');
 
 var config = require('./config').clean;
