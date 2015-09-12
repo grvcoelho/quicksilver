@@ -13,3 +13,7 @@ gulp.task('jade', function() {
         .pipe(gulp.dest(config.dest))
         .pipe(browser.reload({stream: true}));
 });
+
+gulp.task('jade:watch', ['jade'], function() {
+    gulp.watch(config.src, ['jade']);
+});

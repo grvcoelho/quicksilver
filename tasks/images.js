@@ -15,3 +15,7 @@ gulp.task('images', function() {
         .pipe(gulp.dest(config.dest))
         .pipe(browser.reload({stream: true}));
 });
+
+gulp.task('images:watch', ['images'], function() {
+    gulp.watch(config.src, ['images']);
+});

@@ -15,5 +15,5 @@ gulp.task('lint', function() {
 });
 
 gulp.task('lint:watch', ['lint'], function() {
-    gulp.watch('./src/js/**/*.js', ['lint']);
+    gulp.watch(config.src, ['lint']);
 });

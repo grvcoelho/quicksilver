@@ -21,3 +21,7 @@ gulp.task('stylus', function() {
         .pipe(gulp.dest(config.dest))
         .pipe(browser.reload({stream: true}));
 });
+
+gulp.task('stylus:watch', ['stylus'], function() {
+    gulp.watch(config.src, ['stylus']);
+});

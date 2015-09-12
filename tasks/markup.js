@@ -11,3 +11,7 @@ gulp.task('markup', function() {
         .pipe(gulp.dest(config.dest))
         .pipe(browser.reload({stream: true}));
 });
+
+gulp.task('markup:watch', ['markup'], function() {
+    gulp.watch(config.src, ['markup']);
+});

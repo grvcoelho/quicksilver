@@ -15,3 +15,7 @@ gulp.task('browserify', function() {
         .pipe(gulp.dest(config.dest))
         .pipe(browser.reload({stream: true}));
 });
+
+gulp.task('browserify:watch', ['browserify'], function() {
+    gulp.watch(config.src, ['browserify']);
+});
