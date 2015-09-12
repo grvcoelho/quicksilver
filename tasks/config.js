@@ -9,7 +9,8 @@ module.exports = {
 
 	browserify: {
 		src: src + '/js/**/index.js',
-		dest: dest + '/assets/js'
+		dest: dest + '/assets/js',
+		watch: src + '/js/**/*.js'
 	},
 
 	clean: {
@@ -44,7 +45,8 @@ module.exports = {
 	},
 
 	stylus: {
-		src: src + '/styl/**/*.styl',
-		dest: dest + '/assets/css'
+		src: src + '/styl/**/index.styl',
+		dest: dest + '/assets/css',
+		watch: src + '/styl/**/*.styl'
 	}
 };
