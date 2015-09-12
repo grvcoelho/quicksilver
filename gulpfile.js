@@ -1,3 +1,4 @@
+require('./tasks/browser');
 require('./tasks/browserify');
 require('./tasks/clean');
 require('./tasks/images');
