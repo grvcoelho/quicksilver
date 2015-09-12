@@ -2,6 +2,11 @@ var dest = './dist';
 var src = './src';
 
 module.exports = {
+	browser: {
+		baseDir: dest,
+		port: 4000
+	},
+
 	browserify: {
 		src: src + '/js/**/index.js',
 		dest: dest + '/assets/js'
@@ -36,11 +41,6 @@ module.exports = {
 	markup: {
 		src: src + '/**/*.html',
 		dest: dest
-	},
-
-	server: {
-		baseDir: dest,
-		port: 4000
 	},
 
 	stylus: {
