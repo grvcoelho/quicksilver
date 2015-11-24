@@ -4,12 +4,7 @@ Gulp boilerplate for rapid development.
 
 ## Installation
 
-You will need Node.js and Gulp installed:
-
-- [NodeJS](http://nodejs.org/)
-- [GulpJS](http://gulpjs.com/)
-
-After that, clone this repository:
+Clone the repository:
 
 ```sh
 git clone git://github.com/grvcoelho/quicksilver.git my_project
