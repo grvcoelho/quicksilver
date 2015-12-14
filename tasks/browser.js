@@ -3,7 +3,7 @@ var browser = require('browser-sync');
 
 var config = require('./config').browser;
 
-gulp.task('browser', ['stylus:watch'], function() {
+gulp.task('browser', function() {
     browser({
         server: {
             baseDir: config.baseDir,
